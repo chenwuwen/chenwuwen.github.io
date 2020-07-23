@@ -26,10 +26,12 @@ themes：主题
 hexo clean
 hexo generate
 hexo deploy
+hexo server -p 端口号
 
 ```
 
 >其中 hexo clean清除了你之前生成的东西，也可以不加。
+ hexo server 是启动本地预览,默认是4040端口,可以用hexo s缩写,在添加文章或者改动配置后,可以先在本地预览,满意后在部署
  hexo generate 顾名思义，生成静态文章，可以用 hexo g缩写
  hexo deploy 部署文章，可以用hexo d缩写,注意deploy时可能
 >要你输入github的username和password。
